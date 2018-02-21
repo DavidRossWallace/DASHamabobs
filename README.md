@@ -1,10 +1,10 @@
-<h2>rappiDASH</h2>
+<h2>rappidDASH</h2>
 
-<h5><em><span class="note">Dashboard and component framework</em></h5>
+<h5><span class="note">Dashboard and component framework - <em>just enough to be helpful and not a hassle </em></h5>
 
 <div> </div>
 
-<p><strong><u>Architecture:</u></strong></p>
+<p><strong><u>components:</u></strong></p>
 
 
 
