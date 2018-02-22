@@ -1,9 +1,6 @@
 <h2>rapidDASH</h2>
 
 <h5><span class="note">Dashboard and component framework - <em>just enough to be helpful and not a hassle </em></h5>
-
-
-<br><br>
 <b><big>
 	GET STARTED IN LESS THAN A MINUTE:
 	</big></b>
@@ -11,59 +8,45 @@
 <b>CSS includes: place in head section of HTML page</b>
 Bootstrap 3 css: 
 
-<b>Javascript includes: place at bottom of HTML body</b><br>
-<br>
-BOOTSTRAP: <br>
-JQUERY: <br>
-RAPIDDASH:<br>
-RAPIDCONTROL:<br>
-<br>
-.. INCLUDE ANY OTHER CONNTROLS refs YOU WISH TO USE ON YOUR DASH
-<br><br>
-
-<b>HTML: Add rapidcontrols anywhere you want them on web page</b><br><br>
-<br>
+<b>Javascript includes: place at bottom of HTML body</b>
+<ul>
+<li>BOOTSTRAP:
+<li>JQUERY:
+<li>RAPIDDASH:
+<li>RAPIDCONTROL:
+	</ul>
+<p>
+NCLUDE ANY OTHER CONNTROLS refs YOU WISH TO USE ON YOUR DASH
+<p>
+<b>HTML: Add rapidcontrols anywhere you want them on web page</b>
+<p>
 <b>DASHBOARD</b>: this html is the dashboard. Place anything you want on the dashboard inside this wrapper.
-<br>
 
 <code>
 	
-	<div id="MyDashboardId" class="rapiddash-control rdDashlet" data-display="normal" data-controlType="rdDashlet" data-contentType="inline"> ... dashboard elements here </div>
+<div id="MyDashboardId" class="rapiddash-control rdDashlet" data-display="normal" data-controlType="rdDashlet" data-contentType="inline"> ... dashboard elements here </div>
 	
-	
-	</code>
-	
-	
-	<br>
-Here are a few examples of rapid controls you can incude in your dashboard. Add as many as you wish. be sure to include js files for any rapid cotrols you use.<br><br>
+</code>
+<p>
+
+Here are a few examples of rapid controls you can incude in your dashboard. Add as many as you wish. be sure to include js files for any rapid cotrols you use.
 
 <b>BASIC PORTLET</b> : Genereic control to wrap around any content you want to turn into a portlet on your dash.
-<br><br>
+
 <code>
-	
-	
 	<div id="MySImpleTextPortlet" class="rapiddash-control" data-controlType="rdDashlet" data-display="normal" data-contentType="inline">
 	   ... here is some random text that will appear in my sexy portlet ...	</div>
-	
-	
 	</code>
+	<p>
 	
-<br><br>
-
-
-PORTLET WITH LINKED CONTENT: You'll probably want to link to the content for most of your dashlets - it is cleaner and required for most of the more dynamic control types.<br><br>
+PORTLET WITH LINKED CONTENT: You'll probably want to link to the content for most of your dashlets - it is cleaner and required for most of the more dynamic control types.
 
 <code>
-	
 	<div id="myLinkList" class="rapiddash-control" data-controlType="rdDashlet" data-display="noral" data-contentType="linked" data-source="myCOntentFilesPath/MyLinkListFile.htm"-></div>
 	</code>
 	
-	<br><br>
 
 <b>LAST STEP</b>: INCLUDE THIS SCRIPT CODE ANYWHERE ON ANY PAGE CONTAINING A RAPIDDASH.
-
-<br><br>
-
 
 <code>
 <script>
@@ -73,10 +56,7 @@ PORTLET WITH LINKED CONTENT: You'll probably want to link to the content for mos
 	}) ;
 	
 </script>
-	
 </code>
-
-<br><br><br>
 
 
 <p><strong><u>components:</u></strong></p>
