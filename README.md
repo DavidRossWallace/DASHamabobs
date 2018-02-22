@@ -1,4 +1,4 @@
-<h2>rappidDASH</h2>
+<h2>rapidDASH</h2>
 
 <h5><span class="note">Dashboard and component framework - <em>just enough to be helpful and not a hassle </em></h5>
 
