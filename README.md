@@ -1,49 +1,73 @@
 <h2>rapidDASH</h2>
 
-<h5><span class="note">Dashboard and component framework - <em>just enough to be helpful and not a hassle </em></h5>
-<b><big>
-	GET STARTED IN LESS THAN A MINUTE:
-	</big></b>
+<h5><span class="note">Dashboard and component framework - <em>just enough to be helpful and not a hassle </em></span></h5>
 
-<b>CSS includes: place in head section of HTML page</b>
-Bootstrap 3 css: 
+<p> </p>
 
-<b>Javascript includes: place at bottom of HTML body</b>
+<hr />
+<p> </p>
+
+<p><b><big>GET STARTED IN LESS THAN A MINUTE: </big></b></p>
+
+<h3><b>1. INCLUDES:</b></h3>
+
+<h3> </h3>
+
+<h3><b>1.a CSS: </b>place in head section of HTML page</h3>
+
+<h3> </h3>
+
 <ul>
-<li>BOOTSTRAP:
-<li>JQUERY:
-<li>RAPIDDASH:
-<li>RAPIDCONTROL:
-	</ul>
-<p>
-NCLUDE ANY OTHER CONNTROLS refs YOU WISH TO USE ON YOUR DASH
-<p>
-<b>HTML: Add rapidcontrols anywhere you want them on web page</b>
-<p>
-<b>DASHBOARD</b>: this html is the dashboard. Place anything you want on the dashboard inside this wrapper.
+	<li>
+	<h3>Bootstrap 3 css</h3>
+	</li>
+</ul>
 
-<code>
+<h3> </h3>
+
+<h3><b>1.b Javascript includes: </b>place at bottom of HTML body</h3>
+
+<h3> </h3>
+
+<ul>
+	<li>BOOTSTRAP:</li>
+	<li>JQUERY:</li>
+	<li>RAPIDDASH:</li>
+	<li>RAPIDCONTROL:</li>
+	<li>INCLUDE REFS for ANY OTHER CONNTROLS YOU WISH TO USE ON YOUR DASH</li>
+</ul>
+
+<h3> </h3>
+
+<h3><b>Step 2. HTML: </b>Add rapidcontrols anywhere you want them on web page</h3>
+
+<p> </p>
+
+<p><b>DASHBOARD</b>: this html is the dashboard. Place anything you want on the dashboard inside this wrapper. 
+
+<blockquote>
 	
-<div id="MyDashboardId" class="rapiddash-control rdDashlet" data-display="normal" data-controlType="rdDashlet" data-contentType="inline"> ... dashboard elements here </div>
-	
-</code>
+&lt;div id=&#34;MyDashboardId&#34; class=&#34;rapiddash-control rdDashlet&#34; data-display=&#34;normal&#34; data-controlType=&#34;rdDashlet&#34; data-contentType=&#34;inline&#34;&gt; ... dashboard elements here &lt;/div&gt;&#9;	
+
+</blockquote>
 <p>
+<p>Here are a few examples of rapid controls you can incude in your dashboard. Add as many as you wish. be sure to include js files for any rapid cotrols you use.</p>
 
-Here are a few examples of rapid controls you can incude in your dashboard. Add as many as you wish. be sure to include js files for any rapid cotrols you use.
+<p><b>BASIC PORTLET</b> : Genereic control to wrap around any content you want to turn into a portlet on your dash. 
 
-<b>BASIC PORTLET</b> : Genereic control to wrap around any content you want to turn into a portlet on your dash.
 
-<code>
-	<div id="MySImpleTextPortlet" class="rapiddash-control" data-controlType="rdDashlet" data-display="normal" data-contentType="inline">
-	   ... here is some random text that will appear in my sexy portlet ...	</div>
-	</code>
+<blockquote>
+	&#10;&#9;&lt;div id=&#34;MySImpleTextPortlet&#34; class=&#34;rapiddash-control&#34; data-controlType=&#34;rdDashlet&#34; data-display=&#34;normal&#34; data-contentType=&#34;inline&#34;&gt;&#10;&#9;   ... here is some random text that will appear in my sexy portlet ...&#9;&lt;/div&gt;
+</blockquote>
+
+
 	<p>
 	
 PORTLET WITH LINKED CONTENT: You'll probably want to link to the content for most of your dashlets - it is cleaner and required for most of the more dynamic control types.
 
-<code>
-	<div id="myLinkList" class="rapiddash-control" data-controlType="rdDashlet" data-display="noral" data-contentType="linked" data-source="myCOntentFilesPath/MyLinkListFile.htm"-></div>
-	</code>
+<blockquote>
+	&#9;&lt;div id=&#34;myLinkList&#34; class=&#34;rapiddash-control&#34; data-controlType=&#34;rdDashlet&#34; data-display=&#34;noral&#34; data-contentType=&#34;linked&#34; data-source=&#34;myCOntentFilesPath/MyLinkListFile.htm&#34;-&gt;&lt;/div&gt;
+	</blockquote>
 	
 
 <b>LAST STEP</b>: INCLUDE THIS SCRIPT CODE ANYWHERE ON ANY PAGE CONTAINING A RAPIDDASH.
