@@ -7,27 +7,21 @@
 <hr />
 <p> </p>
 
-<p><b><big>GET STARTED IN LESS THAN A MINUTE: </big></b></p>
+<h2>GET STARTED IN LESS THAN A MINUTE: </h2>
 
-<h3><b>1. INCLUDES:</b></h3>
-
-<h3> </h3>
-
-<h3><b>1.a CSS: </b>place in head section of HTML page</h3>
-
-<h3> </h3>
+<h3><b>STEP 1. INCLUDES:</b></h3>
+<p>
+<b>1.a CSS: </b>place in head section of HTML page
+</p>
 
 <ul>
 	<li>
-	<h3>Bootstrap 3 css</h3>
+	Bootstrap 3 css
 	</li>
 </ul>
 
-<h3> </h3>
-
-<h3><b>1.b Javascript includes: </b>place at bottom of HTML body</h3>
-
-<h3> </h3>
+<p>
+<b>1.b Javascript includes: </b>place at bottom of HTML body
 
 <ul>
 	<li>BOOTSTRAP:</li>
@@ -37,40 +31,42 @@
 	<li>INCLUDE REFS for ANY OTHER CONNTROLS YOU WISH TO USE ON YOUR DASH</li>
 </ul>
 
-<h3> </h3>
+</p>
 
-<h3><b>Step 2. HTML: </b>Add rapidcontrols anywhere you want them on web page</h3>
+<h3>Step 2. HTML: Add rapidcontrols anywhere you want them on web page</h3>
 
 <p> </p>
 
-<p><b>DASHBOARD</b>: this html is the dashboard. Place anything you want on the dashboard inside this wrapper. 
-
+<p>
+	<b>DASHBOARD</b>: this html is the dashboard. Place anything you want on the dashboard inside this wrapper. 
+<p>
 <blockquote>
 	
 &lt;div id=&#34;MyDashboardId&#34; class=&#34;rapiddash-control rdDashlet&#34; data-display=&#34;normal&#34; data-controlType=&#34;rdDashlet&#34; data-contentType=&#34;inline&#34;&gt; ... dashboard elements here &lt;/div&gt;&#9;	
-
 </blockquote>
+</p>
+
+
 <p>
 <p>Here are a few examples of rapid controls you can incude in your dashboard. Add as many as you wish. be sure to include js files for any rapid cotrols you use.</p>
 
-<p><b>BASIC PORTLET</b> : Genereic control to wrap around any content you want to turn into a portlet on your dash. 
+<p>
+<b>BASIC PORTLET</b> : Genereic control to wrap around any content you want to turn into a portlet on your dash. 
 
-
+<p>
 <blockquote>
 	&#10;&#9;&lt;div id=&#34;MySImpleTextPortlet&#34; class=&#34;rapiddash-control&#34; data-controlType=&#34;rdDashlet&#34; data-display=&#34;normal&#34; data-contentType=&#34;inline&#34;&gt;&#10;&#9;   ... here is some random text that will appear in my sexy portlet ...&#9;&lt;/div&gt;
 </blockquote>
-
-
-	<p>
+</p>
 	
-PORTLET WITH LINKED CONTENT: You'll probably want to link to the content for most of your dashlets - it is cleaner and required for most of the more dynamic control types.
-
+<b>PORTLET WITH LINKED CONTENT:</b> You'll probably want to link to the content for most of your dashlets - it is cleaner and required for most of the more dynamic control types.
+<p>
 <blockquote>
 	&#9;&lt;div id=&#34;myLinkList&#34; class=&#34;rapiddash-control&#34; data-controlType=&#34;rdDashlet&#34; data-display=&#34;noral&#34; data-contentType=&#34;linked&#34; data-source=&#34;myCOntentFilesPath/MyLinkListFile.htm&#34;-&gt;&lt;/div&gt;
-	</blockquote>
-	
+</blockquote>
+</p>	
 
-<b>LAST STEP</b>: INCLUDE THIS SCRIPT CODE ANYWHERE ON ANY PAGE CONTAINING A RAPIDDASH.
+<h3>STEP 3: last step:</b>: INCLUDE THIS SCRIPT CODE ANYWHERE ON ANY PAGE CONTAINING A RAPIDDASH.</h3>
 
 <code>
 <script>
@@ -84,8 +80,6 @@ PORTLET WITH LINKED CONTENT: You'll probably want to link to the content for mos
 
 
 <p><strong><u>components:</u></strong></p>
-
- <div class="formattedExport">
 <ul>
 	<li><span class="name">Panel Templates - content files that load into rapidlets</span>
 	<ul>
@@ -194,4 +188,4 @@ PORTLET WITH LINKED CONTENT: You'll probably want to link to the content for mos
 	</ul>
 	</li>
 </ul>
-</div>
+
