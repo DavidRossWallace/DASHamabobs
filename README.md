@@ -1,4 +1,5 @@
-<h2>rapidDASH</h2>
+<h2>	
+DASHAMABOBS.COM </h2>
 
 <h5><span class="note">Dashboard and component framework - <em>just enough to be helpful and not a hassle </em></span></h5>
 
